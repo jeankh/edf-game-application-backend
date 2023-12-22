@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Certificate</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='certificate_styles.css') }}">
+</head>
+<body>
+    <div class="certificate">
+        <div className='FirstDivcertitfi'>
+            <p className='firstTilteCertifi'>My Music Course Certifications : </p>
+        </div>
+        <h1 class="certificate-title">Certificate of Completion</h1>
+        <p class="certificate-text">This certifies that <span class="student-name">{{ certificate_data.student_name }}</span> has successfully completed the "{{ certificate_data.course_name }}" course on <span class="completion-date">{{ certificate_data.date }}</span>.</p>
+    </div>
+</body>
+</html>

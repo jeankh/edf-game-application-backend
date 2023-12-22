@@ -1,0 +1,16 @@
+/* Define your certificate styles here */
+.certificate {
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}

@@ -1,2 +1,4 @@
 Flask==3.0.0
 flask-sqlalchemy==3.0.2
+weasyprint==60.2
+Flask-Cors==4.0.0
